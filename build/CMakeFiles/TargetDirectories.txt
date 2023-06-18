@@ -1,0 +1,3 @@
+/home/bagieta/Desktop/the_game/build/CMakeFiles/the_game.dir
+/home/bagieta/Desktop/the_game/build/CMakeFiles/edit_cache.dir
+/home/bagieta/Desktop/the_game/build/CMakeFiles/rebuild_cache.dir

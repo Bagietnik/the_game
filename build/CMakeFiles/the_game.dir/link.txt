@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/the_game.dir/heroes.cpp.o -o the_game 
