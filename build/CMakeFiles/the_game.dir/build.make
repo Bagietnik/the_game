@@ -69,10 +69,24 @@ include CMakeFiles/the_game.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/the_game.dir/flags.make
 
+CMakeFiles/the_game.dir/main.cpp.o: CMakeFiles/the_game.dir/flags.make
+CMakeFiles/the_game.dir/main.cpp.o: /home/bagieta/Desktop/the_game/src/main.cpp
+CMakeFiles/the_game.dir/main.cpp.o: CMakeFiles/the_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/the_game.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/the_game.dir/main.cpp.o -MF CMakeFiles/the_game.dir/main.cpp.o.d -o CMakeFiles/the_game.dir/main.cpp.o -c /home/bagieta/Desktop/the_game/src/main.cpp
+
+CMakeFiles/the_game.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/the_game.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bagieta/Desktop/the_game/src/main.cpp > CMakeFiles/the_game.dir/main.cpp.i
+
+CMakeFiles/the_game.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_game.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bagieta/Desktop/the_game/src/main.cpp -o CMakeFiles/the_game.dir/main.cpp.s
+
 CMakeFiles/the_game.dir/heroes.cpp.o: CMakeFiles/the_game.dir/flags.make
 CMakeFiles/the_game.dir/heroes.cpp.o: /home/bagieta/Desktop/the_game/src/heroes.cpp
 CMakeFiles/the_game.dir/heroes.cpp.o: CMakeFiles/the_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/the_game.dir/heroes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/the_game.dir/heroes.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/the_game.dir/heroes.cpp.o -MF CMakeFiles/the_game.dir/heroes.cpp.o.d -o CMakeFiles/the_game.dir/heroes.cpp.o -c /home/bagieta/Desktop/the_game/src/heroes.cpp
 
 CMakeFiles/the_game.dir/heroes.cpp.i: cmake_force
@@ -83,17 +97,35 @@ CMakeFiles/the_game.dir/heroes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_game.dir/heroes.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bagieta/Desktop/the_game/src/heroes.cpp -o CMakeFiles/the_game.dir/heroes.cpp.s
 
+CMakeFiles/the_game.dir/maintenance.cpp.o: CMakeFiles/the_game.dir/flags.make
+CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/maintenance.cpp
+CMakeFiles/the_game.dir/maintenance.cpp.o: CMakeFiles/the_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/the_game.dir/maintenance.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/the_game.dir/maintenance.cpp.o -MF CMakeFiles/the_game.dir/maintenance.cpp.o.d -o CMakeFiles/the_game.dir/maintenance.cpp.o -c /home/bagieta/Desktop/the_game/src/maintenance.cpp
+
+CMakeFiles/the_game.dir/maintenance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/the_game.dir/maintenance.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bagieta/Desktop/the_game/src/maintenance.cpp > CMakeFiles/the_game.dir/maintenance.cpp.i
+
+CMakeFiles/the_game.dir/maintenance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/the_game.dir/maintenance.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bagieta/Desktop/the_game/src/maintenance.cpp -o CMakeFiles/the_game.dir/maintenance.cpp.s
+
 # Object files for target the_game
 the_game_OBJECTS = \
-"CMakeFiles/the_game.dir/heroes.cpp.o"
+"CMakeFiles/the_game.dir/main.cpp.o" \
+"CMakeFiles/the_game.dir/heroes.cpp.o" \
+"CMakeFiles/the_game.dir/maintenance.cpp.o"
 
 # External object files for target the_game
 the_game_EXTERNAL_OBJECTS =
 
+the_game: CMakeFiles/the_game.dir/main.cpp.o
 the_game: CMakeFiles/the_game.dir/heroes.cpp.o
+the_game: CMakeFiles/the_game.dir/maintenance.cpp.o
 the_game: CMakeFiles/the_game.dir/build.make
 the_game: CMakeFiles/the_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable the_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bagieta/Desktop/the_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable the_game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/the_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

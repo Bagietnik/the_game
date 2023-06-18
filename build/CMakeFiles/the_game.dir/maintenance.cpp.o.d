@@ -1,6 +1,8 @@
-CMakeFiles/the_game.dir/main.cpp.o: \
- /home/bagieta/Desktop/the_game/src/main.cpp /usr/include/stdc-predef.h \
- /home/bagieta/Desktop/the_game/src/heroes.h /usr/include/c++/12/iostream \
+CMakeFiles/the_game.dir/maintenance.cpp.o: \
+ /home/bagieta/Desktop/the_game/src/maintenance.cpp \
+ /usr/include/stdc-predef.h \
+ /home/bagieta/Desktop/the_game/src/maintenance.h \
+ /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -147,13 +149,12 @@ CMakeFiles/the_game.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/fstream \
+ /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/vector \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc \
- /home/bagieta/Desktop/the_game/src/maintenance.h \
- /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc
+ /usr/include/c++/12/bits/vector.tcc

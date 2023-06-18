@@ -151,4 +151,5 @@ CMakeFiles/the_game.dir/heroes.cpp.o: \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/bagieta/Desktop/the_game/src/heroes.h

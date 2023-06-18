@@ -153,6 +153,54 @@ heroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/heroes.cpp.s
 .PHONY : heroes.cpp.s
 
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+maintenance.o: maintenance.cpp.o
+.PHONY : maintenance.o
+
+# target to build an object file
+maintenance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/maintenance.cpp.o
+.PHONY : maintenance.cpp.o
+
+maintenance.i: maintenance.cpp.i
+.PHONY : maintenance.i
+
+# target to preprocess a source file
+maintenance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/maintenance.cpp.i
+.PHONY : maintenance.cpp.i
+
+maintenance.s: maintenance.cpp.s
+.PHONY : maintenance.s
+
+# target to generate assembly for a file
+maintenance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/maintenance.cpp.s
+.PHONY : maintenance.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... heroes.o"
 	@echo "... heroes.i"
 	@echo "... heroes.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... maintenance.o"
+	@echo "... maintenance.i"
+	@echo "... maintenance.s"
 .PHONY : help
 
 
