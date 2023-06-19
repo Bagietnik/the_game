@@ -1,5 +1,8 @@
-CMakeFiles/the_game.dir/heroes.cpp.o: \
- /home/bagieta/Desktop/the_game/src/heroes.cpp /usr/include/stdc-predef.h \
+CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.o: \
+ /home/bagieta/Desktop/the_game/player1/player1.cpp \
+ /usr/include/stdc-predef.h \
+ /home/bagieta/Desktop/the_game/player1/player1.h \
+ /home/bagieta/Desktop/the_game/player1/../src/heroes.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -151,12 +154,18 @@ CMakeFiles/the_game.dir/heroes.cpp.o: \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc \
- /home/bagieta/Desktop/the_game/src/heroes.h \
- /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/algorithm \
+ /usr/include/c++/12/bits/stl_algo.h \
  /usr/include/c++/12/bits/algorithmfwd.h \
  /usr/include/c++/12/bits/stl_heap.h \
  /usr/include/c++/12/bits/stl_tempbuf.h \
  /usr/include/c++/12/bits/uniform_int_dist.h \
  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
- /usr/include/c++/12/pstl/execution_defs.h
+ /usr/include/c++/12/pstl/execution_defs.h /usr/include/c++/12/map \
+ /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/bits/node_handle.h \
+ /usr/include/c++/12/bits/stl_map.h /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
+ /usr/include/c++/12/bits/erase_if.h

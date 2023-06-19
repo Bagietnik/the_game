@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/the_game.dir/heroes.cpp.o"
   "CMakeFiles/the_game.dir/heroes.cpp.o.d"
+  "CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.o"
+  "CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.o.d"
   "CMakeFiles/the_game.dir/main.cpp.o"
   "CMakeFiles/the_game.dir/main.cpp.o.d"
   "CMakeFiles/the_game.dir/maintenance.cpp.o"

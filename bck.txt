@@ -1,0 +1,56 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+#include "maintenance.h"
+
+bool validateInput(const std::string& input)
+{
+    std::istringstream iss(input);
+    int value;
+    return (iss >> value) && (iss.eof());
+}
+
+int generateMap()
+{
+    std::string widthInput, heightInput;
+    int width, height;
+
+    std::cout << "Minimal dimensions of the map: 10x5" << "\n";
+
+    do {
+        std::cout << "Enter the width of the map: ";
+        std::cin >> widthInput;
+        width = std::stoi(widthInput);
+    } while (!validateInput(widthInput) || width < 10);
+
+    do {
+        std::cout << "Enter the height of the map: ";
+        std::cin >> heightInput;
+        height = std::stoi(heightInput);
+    } while (!validateInput(heightInput) || height < 5);
+
+    std::ofstream file("../files/map.txt", std::ofstream::out | std::ofstream::trunc);
+    if (!file.is_open()) {
+        std::cout << "Can't open the map file." << std::endl;
+        return 1;
+    }
+
+    for (int i = 0; i < height; i++) {
+        for (int j = 0; j < width; j++) {
+            file << "0 ";
+        }
+        file << std::endl;
+    }
+
+    file.close();
+    std::cout << "Map file has been genereted." << std::endl;
+
+    return 0;
+}
+
+100000000000000000
+000000999000000000
+000000999000000000
+000000999000000000
+000000000000000002

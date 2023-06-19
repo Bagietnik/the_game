@@ -189,10 +189,19 @@ CMakeFiles/the_game.dir/heroes.cpp.o: /home/bagieta/Desktop/the_game/src/heroes.
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
-  /home/bagieta/Desktop/the_game/src/heroes.h
+  /home/bagieta/Desktop/the_game/src/heroes.h \
+  /usr/include/c++/12/algorithm \
+  /usr/include/c++/12/bits/stl_algo.h \
+  /usr/include/c++/12/bits/algorithmfwd.h \
+  /usr/include/c++/12/bits/stl_heap.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h
 
 CMakeFiles/the_game.dir/main.cpp.o: /home/bagieta/Desktop/the_game/src/main.cpp \
   /usr/include/stdc-predef.h \
+  /home/bagieta/Desktop/the_game/src/maintenance.h \
   /usr/include/c++/12/iostream \
   /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -374,18 +383,35 @@ CMakeFiles/the_game.dir/main.cpp.o: /home/bagieta/Desktop/the_game/src/main.cpp 
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc \
-  /home/bagieta/Desktop/the_game/src/heroes.h \
+  /usr/include/c++/12/fstream \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/c++/12/bits/fstream.tcc \
   /usr/include/c++/12/vector \
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
   /usr/include/c++/12/bits/vector.tcc \
-  /home/bagieta/Desktop/the_game/src/maintenance.h \
-  /usr/include/c++/12/fstream \
-  /usr/include/c++/12/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
-  /usr/include/c++/12/bits/fstream.tcc
+  /home/bagieta/Desktop/the_game/player1/player1.h \
+  /home/bagieta/Desktop/the_game/src/heroes.h \
+  /usr/include/c++/12/algorithm \
+  /usr/include/c++/12/bits/stl_algo.h \
+  /usr/include/c++/12/bits/algorithmfwd.h \
+  /usr/include/c++/12/bits/stl_heap.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/uniform_int_dist.h \
+  /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/12/pstl/execution_defs.h \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/bits/node_handle.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/erase_if.h
 
 CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/maintenance.cpp \
   /usr/include/stdc-predef.h \
@@ -583,6 +609,12 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
   /usr/include/c++/12/bits/vector.tcc
 
 
+/usr/include/c++/12/bits/erase_if.h:
+
+/usr/include/c++/12/bits/stl_multimap.h:
+
+/usr/include/c++/12/ext/aligned_buffer.h:
+
 /usr/include/c++/12/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h:
@@ -594,6 +626,16 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 /usr/include/c++/12/fstream:
 
 /home/bagieta/Desktop/the_game/src/main.cpp:
+
+/usr/include/c++/12/pstl/glue_algorithm_defs.h:
+
+/usr/include/c++/12/bits/stl_tempbuf.h:
+
+/usr/include/c++/12/bits/stl_heap.h:
+
+/usr/include/c++/12/bits/algorithmfwd.h:
+
+/usr/include/c++/12/bits/stl_algo.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
@@ -609,9 +651,13 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 
 /usr/include/c++/12/cwctype:
 
+/usr/include/c++/12/tuple:
+
 /usr/include/c++/12/bits/ostream.tcc:
 
 /usr/include/c++/12/bits/locale_facets.h:
+
+/usr/include/c++/12/pstl/execution_defs.h:
 
 /usr/include/c++/12/bits/basic_ios.h:
 
@@ -709,6 +755,8 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 
 /usr/include/c++/12/bits/exception_ptr.h:
 
+/home/bagieta/Desktop/the_game/player1/player1.h:
+
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h:
@@ -733,11 +781,17 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 
 /usr/include/c++/12/exception:
 
+/usr/include/c++/12/bits/uniform_int_dist.h:
+
 /usr/include/c++/12/bits/std_abs.h:
 
 /usr/include/c++/12/debug/assertions.h:
 
+/usr/include/c++/12/algorithm:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/12/bits/stl_map.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -793,6 +847,8 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 
 /usr/include/stdc-predef.h:
 
+/usr/include/c++/12/bits/node_handle.h:
+
 /usr/include/c++/12/cstdint:
 
 /usr/include/c++/12/clocale:
@@ -804,6 +860,8 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 /usr/include/pthread.h:
 
 /usr/include/c++/12/ostream:
+
+/usr/include/c++/12/bits/stl_tree.h:
 
 /usr/include/c++/12/ios:
 
@@ -915,6 +973,8 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
+/usr/include/c++/12/map:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
@@ -940,6 +1000,8 @@ CMakeFiles/the_game.dir/maintenance.cpp.o: /home/bagieta/Desktop/the_game/src/ma
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/12/bits/uses_allocator.h:
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 

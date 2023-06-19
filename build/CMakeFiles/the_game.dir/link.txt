@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/the_game.dir/main.cpp.o CMakeFiles/the_game.dir/heroes.cpp.o CMakeFiles/the_game.dir/maintenance.cpp.o -o the_game 
+/usr/bin/c++ CMakeFiles/the_game.dir/main.cpp.o CMakeFiles/the_game.dir/heroes.cpp.o CMakeFiles/the_game.dir/maintenance.cpp.o CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.o -o the_game 

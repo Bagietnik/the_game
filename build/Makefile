@@ -153,6 +153,30 @@ heroes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/heroes.cpp.s
 .PHONY : heroes.cpp.s
 
+home/bagieta/Desktop/the_game/player1/player1.o: home/bagieta/Desktop/the_game/player1/player1.cpp.o
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.o
+
+# target to build an object file
+home/bagieta/Desktop/the_game/player1/player1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.o
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.cpp.o
+
+home/bagieta/Desktop/the_game/player1/player1.i: home/bagieta/Desktop/the_game/player1/player1.cpp.i
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.i
+
+# target to preprocess a source file
+home/bagieta/Desktop/the_game/player1/player1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.i
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.cpp.i
+
+home/bagieta/Desktop/the_game/player1/player1.s: home/bagieta/Desktop/the_game/player1/player1.cpp.s
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.s
+
+# target to generate assembly for a file
+home/bagieta/Desktop/the_game/player1/player1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/the_game.dir/build.make CMakeFiles/the_game.dir/home/bagieta/Desktop/the_game/player1/player1.cpp.s
+.PHONY : home/bagieta/Desktop/the_game/player1/player1.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... heroes.o"
 	@echo "... heroes.i"
 	@echo "... heroes.s"
+	@echo "... home/bagieta/Desktop/the_game/player1/player1.o"
+	@echo "... home/bagieta/Desktop/the_game/player1/player1.i"
+	@echo "... home/bagieta/Desktop/the_game/player1/player1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
